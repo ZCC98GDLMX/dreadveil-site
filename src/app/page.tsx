@@ -968,7 +968,7 @@ export default function HomePage() {
             className="card-hover rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center"
           >
             <h3 className="text-xl font-semibold">{t.community.discord}</h3>
-            <p className="mt-2 text-sm text-zinc-400">discord.gg/your-link</p>
+            <p className="mt-2 text-sm text-zinc-400">discord.gg/eW8W5TzKza</p>
           </a>
 
           <a
@@ -992,7 +992,7 @@ export default function HomePage() {
             className="card-hover rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center"
           >
             <h3 className="text-xl font-semibold">{t.community.contact}</h3>
-            <p className="mt-2 text-sm text-zinc-400">your@email.com</p>
+            <p className="mt-2 text-sm text-zinc-400">dev.dreadveil@gmail.com</p>
           </a>
         </div>
       </section>
