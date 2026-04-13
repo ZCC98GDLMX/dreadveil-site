@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, rgba(120, 0, 0, 0.14), transparent 30%),
+    linear-gradient(to bottom, #050505, #000000);
+  color: white;
+}
+
+img {
+  image-rendering: auto;
+}
+
+.section-glow {
+  position: relative;
+}
+
+.section-glow::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  background: radial-gradient(circle at top, rgba(180, 0, 0, 0.08), transparent 45%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.card-hover {
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 30px rgba(120, 0, 0, 0.12);
+}
