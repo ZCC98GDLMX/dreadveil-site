@@ -950,52 +950,56 @@ export default function HomePage() {
       </section>
 
       <section id="community" className="mx-auto max-w-6xl px-6 py-24">
-        <p className="mb-3 text-sm uppercase tracking-[0.3em] text-red-500">
-          {t.community.tag}
-        </p>
+  <p className="mb-3 text-sm uppercase tracking-[0.3em] text-red-500">
+    {t.community.tag}
+  </p>
 
-        <h2 className="mb-6 text-3xl font-bold md:text-5xl">
-          {t.community.title}
-        </h2>
+  <h2 className="mb-6 text-3xl font-bold md:text-5xl">
+    {t.community.title}
+  </h2>
 
-        <p className="mb-10 max-w-3xl leading-8 text-zinc-400">
-          {t.community.text}
-        </p>
+  <p className="mb-10 max-w-3xl leading-8 text-zinc-400">
+    {t.community.text}
+  </p>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          <a
-            href="#"
-            className="card-hover rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center"
-          >
-            <h3 className="text-xl font-semibold">{t.community.discord}</h3>
-            <p className="mt-2 text-sm text-zinc-400">discord.gg/eW8W5TzKza</p>
-          </a>
+  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+    <a
+      href="https://discord.gg/eW8W5TzKza"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="card-hover rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center"
+    >
+      <h3 className="text-xl font-semibold">{t.community.discord}</h3>
+      <p className="mt-2 text-sm text-zinc-400">discord.gg/eW8W5TzKza</p>
+    </a>
 
-          <a
-            href="#"
-            className="card-hover rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center"
-          >
-            <h3 className="text-xl font-semibold">{t.community.youtube}</h3>
-            <p className="mt-2 text-sm text-zinc-400">youtube.com/@dreadveil</p>
-          </a>
+    <a
+      href="https://youtube.com/@dreadveil"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="card-hover rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center"
+    >
+      <h3 className="text-xl font-semibold">{t.community.youtube}</h3>
+      <p className="mt-2 text-sm text-zinc-400">youtube.com/@dreadveil</p>
+    </a>
 
-          <a
-            href="#"
-            className="card-hover rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center"
-          >
-            <h3 className="text-xl font-semibold">{t.community.steam}</h3>
-            <p className="mt-2 text-sm text-zinc-400">steam coming soon</p>
-          </a>
+    <a
+      href="#"
+      className="card-hover rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center"
+    >
+      <h3 className="text-xl font-semibold">{t.community.steam}</h3>
+      <p className="mt-2 text-sm text-zinc-400">steam coming soon</p>
+    </a>
 
-          <a
-            href="mailto:your@email.com"
-            className="card-hover rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center"
-          >
-            <h3 className="text-xl font-semibold">{t.community.contact}</h3>
-            <p className="mt-2 text-sm text-zinc-400">dev.dreadveil@gmail.com</p>
-          </a>
-        </div>
-      </section>
+    <a
+      href="mailto:dev.dreadveil@gmail.com"
+      className="card-hover rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center"
+    >
+      <h3 className="text-xl font-semibold">{t.community.contact}</h3>
+      <p className="mt-2 text-sm text-zinc-400">dev.dreadveil@gmail.com</p>
+    </a>
+  </div>
+</section>
 
       <section id="gallery" className="mx-auto max-w-6xl px-6 py-20">
         <p className="mb-3 text-sm uppercase tracking-[0.3em] text-red-500">
